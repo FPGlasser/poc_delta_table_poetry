@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pco-delta-table"
+version = "0.1.0"
+description = "prova de conceito tabela delta com delta lake"
+authors = ["FP Glasser"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+deltalake = "^0.16.1"
+polars = "^0.20.16"
+duckdb = "^0.10.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
